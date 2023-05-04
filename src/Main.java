@@ -122,7 +122,11 @@ public class Main {
 
 
 
-
+// if statements:
+//        int num = 4;
+//            if(num%2 == 0){
+//        System.out.println("Even");
+//    }
 
 // if-else statements:
 
@@ -133,6 +137,77 @@ public class Main {
 //        System.out.println("Even");
 //    }
 //    else System.out.println("Odd");
+
+// if-else if
+
+//    int x =7;
+//    int y =9;
+
+    // 1st way
+//    if(x%2 ==0 && y%2 == 0){
+//        System.out.println("Both are even");
+//    } else if(x%2 ==1 || y%2 == 1){
+//        System.out.println("even and odd");
+//    } else if(x%2 ==1 && y%2 == 1){
+//        System.out.println("Both are odd");
+//    }
+
+        // 2nd way
+//        if(x%2 ==0 && y%2 == 0){
+//            System.out.println("Both are even");
+//        }else if(x%2 ==1 && y%2 == 1){
+//            System.out.println("Both are odd");
+//        }else {
+//            System.out.println("even and odd");
+//        }
+
+    //switch statements:
+
+//    String fruit = "";
+//
+//    switch(fruit){
+//        case "banana":
+//            System.out.println("yellow");
+//            break;
+//        case "apple":
+//            System.out.println("red");
+//            break;
+//        default:
+//            System.out.println("other");
+//            break;
+//    }
+
+
+        //for loop
+
+//        String[] fruitBasket = {"apple", "orange", "watermelon", "banana", "strawberry"};
+
+//        System.out.println(fruitBasket[0]);
+//        System.out.println(fruitBasket[1]);
+//        System.out.println(fruitBasket[2]);
+//        System.out.println(fruitBasket[3]);
+//        System.out.println(fruitBasket[4]);
+
+        //ascending order
+//       for(int i =0; i < fruitBasket.length; i++){
+//           System.out.println(fruitBasket[i]);
+//       }
+
+        // descending order
+//               for(int i = fruitBasket.length-1; i >= 0; i--){
+//           System.out.println(fruitBasket[i]);
+//       }
+
+// while loop
+//
+//int i =2;
+//
+//while (i<20){
+//    System.out.println(i);
+//    i= i*2;
+//}
+
+// do-while
 
 
 
