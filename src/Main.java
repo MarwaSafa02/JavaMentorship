@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+// Phase 1: Primitive types and Arrays  after going from Slide 1-14
 //        int myNum = 21;
 //
 //        System.out.println(myNum);
@@ -58,8 +59,80 @@ public class Main {
 
 //        String lastCleaningItem = cart[1][1];
 
+// From slide 15, operators, control statements  and methods
+
+// = is assignment operator
+//        int x = 9;
+//        int y = 12;
+
+        // these are arithmatic operators
+
+        // + for addition
+        // - for subtraction
+        // * for multiplication
+        // / for division without modulus
+        // % for modulus
+
+//        int z = x+y;
+//        System.out.println("x+y= "+z);
+
+//        int m = 5%2;
+//        System.out.println("remainder is: "+m);
+
+// relational operators
+      // they compare left and right value and based on that they yield boolean result
+      // == compares to see whether left and right matches. then it will yield true else false
+      // != compares to see whether left and right should not match then it will be true else false
+      // > compares to see if left value is greater than the right then it will be true else false
+        // < compares to see if left value is less than the right then it will be true else false
+        // >= compares to see if left value is greater or equal than the right then it will be true else false
+        // <= compares to see if left value is less or equal then the right then it will be true else false
+// logical operators
+        // &&, ||, !
+    // they combine two different boolean results and yield one boolean result
+        // &&--
+        // true && true = true
+        // false && false = false
+        // true && false or false && true = false
+        // ||--
+        // true || true = true
+        // true || false or false || true = true
+        // false || false = false
+
+//        boolean yes = true;
+//        boolean no = !yes;
+
+        //increment and decrement ++, --
+// if they are used to the left then the variable will be reassigned first before using
+// if it is used to the right the variables will be reassigned after they are used.
+
+//        int i =1;
+// ++i incrementing by +1 before
+// i++ incrementing by +1 after
+
+//        System.out.println(i++);
+//        System.out.println(i);
+
+//        int j =2;
+// --j decrement by -1 before
+// j-- decrementing by -1 after
+
+//        System.out.println(j--);
+//        System.out.println(j);
 
 
+
+
+
+// if-else statements:
+
+//    int num = 5;
+//    int num = 6;
+//
+//    if(num%2 == 0){
+//        System.out.println("Even");
+//    }
+//    else System.out.println("Odd");
 
 
 
