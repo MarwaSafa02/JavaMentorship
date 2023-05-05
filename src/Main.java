@@ -59,7 +59,7 @@ public class Main {
 
 //        String lastCleaningItem = cart[1][1];
 
-// From slide 15, operators, control statements  and methods
+// Phase2: From slide 15, operators, control statements  and methods
 
 // = is assignment operator
 //        int x = 9;
@@ -178,7 +178,7 @@ public class Main {
 //    }
 
 
-        //for loop
+        //for loop section
 
 //        String[] fruitBasket = {"apple", "orange", "watermelon", "banana", "strawberry"};
 
@@ -198,7 +198,7 @@ public class Main {
 //           System.out.println(fruitBasket[i]);
 //       }
 
-// while loop
+// while loop section
 //
 //int i =2;
 //
@@ -207,9 +207,22 @@ public class Main {
 //    i= i*2;
 //}
 
-// do-while
+// do-while loops section
+//  int i =5;
 
+//  while(i<=4){
+//      System.out.println(i);
+//      i++;
+//  }
 
+//        do{
+//            System.out.println(i);
+//            i++;
+//        }while(i<=4);
+
+        //do-while loop will execute the code block first then check the boolean expression hence it will execute at least once
+
+        //on the other hand while loop will check the boolean expression first and then execute the block of code hence the code might never get executed
 
 
 // DEMO: Variables static, instance, local
@@ -243,13 +256,9 @@ public class Main {
 
 // DEMO: Non-Primitive data types
 
-
-
-
-
-
-
     }
+
+
 }
 
 
