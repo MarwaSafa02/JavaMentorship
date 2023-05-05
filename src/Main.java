@@ -126,7 +126,7 @@ public class Main {
 //        int num = 4;
 //            if(num%2 == 0){
 //        System.out.println("Even");
-//    }
+//    n }
 
 // if-else statements:
 
@@ -256,7 +256,70 @@ public class Main {
 
 // DEMO: Non-Primitive data types
 
+        //Phase 3: Methods, Classes and Scope
+
+//        String sample = "hello";
+//
+//        System.out.println(sample.toUpperCase());
+
+        //a method is a block of code that performs a specific task and can be called upon to execute that task multiple times throughout a program
+
+       String[] listOfGroceries = {"cleaning", "foods", "sodas", "makeups"};
+
+//        for(int i = 0; i< listOfGroceries.length; i++){
+//            System.out.println(listOfGroceries[i]);
+//        }
+
+       String[] listOfColors = {"green","yellow", "orange"};
+
+//        for(int i = 0; i< listOfColors.length; i++){
+//            System.out.println(listOfColors[i]);
+//        }
+
+//       printStringArray(listOfColors);
+//       printStringArray(listOfGroceries);
+
+
+//        printHelloWorld();
+
+//
+//        int x =2;
+//
+//        //int z=x*x;
+//        int z = squared(x);
+//
+//        System.out.println(z);
+
+        String firstOfList = getFirstElement(listOfGroceries);
+        // String firstOfList = listOfGroceries[0];
+        System.out.println(firstOfList);
+
+
+
+        String firstOfColors = getFirstElement(listOfColors);
+        System.out.println(firstOfColors);
+
+        String name ="";
+
     }
+    public static void printStringArray(String[] anyList) {
+        for (int i = 0; i < anyList.length; i++) {
+            System.out.println(anyList[i]);
+        }
+    }
+    public static String getFirstElement(String[] anyList){
+        return anyList[0];
+    }
+
+    public static int squared(int x){
+       return x*x;
+    }
+
+    public static  void printHelloWorld(){
+        System.out.println("hello world");
+    }
+
+
 
 
 }
