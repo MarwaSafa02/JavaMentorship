@@ -2,7 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 
 
-import DemoPackage.ThreeDemo;
+
 
 import java.util.ArrayList;
 
@@ -223,46 +223,8 @@ public class Main {
         //do-while loop will execute the code block first then check the boolean expression hence it will execute at least once
 
         //on the other hand while loop will check the boolean expression first and then execute the block of code hence the code might never get executed
+// create a MethodsDemo in there show all these code below
 
-
-// DEMO: Variables static, instance, local
-//        TwoDemo td1 = new TwoDemo();
-//        TwoDemo td2 = new TwoDemo();
-
-
-//        td1.insVar=8;
-//        System.out.println(td1.insVar);
-//
-//        td2.insVar=9;
-//        System.out.println(td2.insVar);
-
-//        td1.statVar =5;
-//        System.out.println(TwoDemo.statVar);
-
-//        td1.doSomething();
-
-
-// DEMO: Java primitive data type and wrapper class
-//        int num1 = 10;
-//
-//        Integer num1w = num1;
-//
-//        String str= "12";
-//
-//        int num2 = Integer.parseInt(str);
-//
-//        System.out.println(num2*2);
-
-
-// DEMO: Non-Primitive data types
-
-        //Phase 3: Methods, Classes and Scope
-
-//        String sample = "hello";
-//
-//        System.out.println(sample.toUpperCase());
-
-        //a method is a block of code that performs a specific task and can be called upon to execute that task multiple times throughout a program
 
        String[] listOfGroceries = {"cleaning", "foods", "sodas", "makeups"};
 
