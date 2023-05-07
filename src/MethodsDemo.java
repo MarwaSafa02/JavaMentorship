@@ -1,16 +1,15 @@
-package DemoPackage;
-
 public class Methods {
 
     public static void main(String[] args) {
         String[] listOfColors = {"green","yellow", "orange"};
-//        printStringArray(listOfColors);
-        String firstElement = getFirstElement(listOfColors);
-        System.out.println(firstElement);
-        
-
-
-        System.out.println(getFirstElement(listOfColors));
+        printStringArray(listOfColors);
+//        String firstElement = getFirstElement(listOfColors);
+//
+//        System.out.println(firstElement);
+//
+//    demo code as used in the paper
+//
+//        System.out.println(getFirstElement(listOfColors));
 
         //printHelloWorld();
     }
