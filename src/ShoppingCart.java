@@ -17,6 +17,10 @@ public class ShoppingCart {
     // (create the static variable coming from ClassDemo)
     static int max = 10; // static variable lets say default variable is ten (phase 3)
 
+    public ShoppingCart(){
+        items = new ArrayList<>(max);
+    }
+
     // Phase 1
 //    you will be writing this initially when you write the class
 //    void addItem(String item){
